@@ -2,6 +2,18 @@
 
 - Used create-react-app
 - Tailwind css for components
+- Header
+- Routing
+- Login form
+- Sign up form
+- Form Validation
+- useRef Hook
+- Firebase setup
+- Deploy our app
+- Create sinup user
+- Create sign in user
+- Create Redux store and create slice (React redux )
+  - User slice
 
 # Features
 
@@ -16,3 +28,6 @@
     - Movies list \* N
 
 # Form Validation
+
+- Form validation
+  - useRef
