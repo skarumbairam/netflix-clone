@@ -11,9 +11,11 @@ const BodyContainer = () => {
   return (
     <div className=" text-white bg-black">
       <div className="-mt-56 relative z-10 pl-8">
+        {/*
         <MovieList title={"Upcoming Movies"} movies={upcomingMovies} />
         <MovieList title={"Now Playing Movies"} movies={nowPlayingMovies} />
         <MovieList title={"Popular Movies"} movies={popularMovies} />
+  */}
       </div>
     </div>
   );

@@ -32,6 +32,9 @@
   - Scroll x
   - Overlap with Main Hero BG video
   - Updating Stores for all movies list and render dynamically
+  - Created GPT Page
+    - Search Bar
+    - Multi language feature in GPT search page
 
 # Features
 
@@ -44,6 +47,8 @@
   - Trending movies with Title & Description
   - Movie Suggestion
     - Movies list \* N
+- GPT Search
+  - Recomendation movies by GPT API
 
 # Form Validation
 

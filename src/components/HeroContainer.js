@@ -20,7 +20,7 @@ const HeroContainer = () => {
 
 const HeroTitle = ({ title, description }) => {
   return (
-    <div className="w-screen aspect-video absolute px-8 pt-[10%] bg-gradient-to-r from-black text-white">
+    <div className="w-screen aspect-video absolute px-8 pt-[15%] bg-gradient-to-r from-black text-white">
       <h1 className="font-bold text-4xl">{title}</h1>
       <p className="py-6 text-lg w-1/4">{description}</p>
       <div className="">
