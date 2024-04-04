@@ -14,6 +14,14 @@
 - Create sign in user
 - Create Redux store and create slice (React redux )
   - User slice
+  - Movie Slice
+- TMDB API for movies list
+- Get data from TMDB for now playing movie list
+- Custom hook for playing movie
+- Update movie data in store
+- Planing Hero content and BG video, Title
+- Embedded auto play from youtube by passing video trailer id
+- Tailwind for hero component style
 
 # Features
 

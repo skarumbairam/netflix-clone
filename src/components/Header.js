@@ -10,8 +10,6 @@ const Header = () => {
   const navigate = useNavigate();
   const userDetail = useSelector((store) => store.user);
 
-  console.log(userDetail);
-
   const logOutHandler = () => {
     signOut(auth)
       .then(() => {
@@ -26,14 +24,14 @@ const Header = () => {
 
   return (
     <header className="">
-      <div className="px-8 py-2 bg-gradient-to-b from-black z-10 relative flex justify-between h-25 align-middle">
+      <div className="px-8 py-2 bg-teal-950 z-10 relative flex justify-between h-20 align-middle">
         <div className="">
           <img className="w-44" src={logo} alt="logo" />
         </div>
 
         {userDetail && (
-          <div className="flex align-middle justify-center h-25 ">
-            <p className="mx-2 text-white">{userDetail.displayName}</p>
+          <div className="flex items-center ">
+            <p className="mx-2 text-white"> 👤 {userDetail.displayName}</p>
             <p
               onClick={logOutHandler}
               className="mx-2 px-6 text-white cursor-pointer"

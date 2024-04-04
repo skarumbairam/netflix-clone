@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 const Body = () => {
   const userDetail = useSelector((store) => store.user);
   return (
-    <div>
+    <div className="container-fluid">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
