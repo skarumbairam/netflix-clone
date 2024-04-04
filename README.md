@@ -8,10 +8,11 @@
 - Sign up form
 - Form Validation
 - useRef Hook
-- Firebase setup
+- Firebase setu
 - Deploy our app
 - Create sinup user
 - Create sign in user
+- Firebase authentication
 - Create Redux store and create slice (React redux )
   - User slice
   - Movie Slice
@@ -22,6 +23,15 @@
 - Planing Hero content and BG video, Title
 - Embedded auto play from youtube by passing video trailer id
 - Tailwind for hero component style
+- Build BodyContainer which contains
+  - Movie List component
+    - (Video Card Component)
+  - Playing movie list
+  - Upcoming movie list
+  - Popular movie list
+  - Scroll x
+  - Overlap with Main Hero BG video
+  - Updating Stores for all movies list and render dynamically
 
 # Features
 
@@ -31,7 +41,7 @@
 - Header
   - Main Movie
   - Trailer in baground
-  - Title & Description
+  - Trending movies with Title & Description
   - Movie Suggestion
     - Movies list \* N
 

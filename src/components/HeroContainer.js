@@ -4,8 +4,11 @@ import useMovieTrailerId from "../hooks/useMovieTrailerId";
 
 const HeroContainer = () => {
   // fetch video trailer from top movie
-  const moviesList = useSelector((store) => store.movies.nowPlayingMovies)[0];
-  const { original_title, overview, id } = moviesList;
+  const moviesList = useSelector((store) => store.movies.nowPlayingMovies);
+  if (!moviesList) return;
+
+  const mainMovie = moviesList[0];
+  const { original_title, overview, id } = mainMovie;
 
   return (
     <>
@@ -17,7 +20,7 @@ const HeroContainer = () => {
 
 const HeroTitle = ({ title, description }) => {
   return (
-    <div className="w-screen aspect-video absolute px-8 pt-[20%] bg-gradient-to-r from-black text-white">
+    <div className="w-screen aspect-video absolute px-8 pt-[10%] bg-gradient-to-r from-black text-white">
       <h1 className="font-bold text-4xl">{title}</h1>
       <p className="py-6 text-lg w-1/4">{description}</p>
       <div className="">
@@ -42,7 +45,7 @@ const HeroBackground = ({ movieId }) => {
         src={`https://www.youtube.com/embed/${trailerVideo?.key}?&autoplay=1&mute=1&loop=1`}
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
+        referrerPolicy="strict-origin-when-cross-origin"
       ></iframe>
     </div>
   );
