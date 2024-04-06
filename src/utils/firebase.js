@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCEPLMINNlPWOl81H0SDxU4sKe8m04L0mM",
+  apiKey: process.env.REACT_APP_FIRE_BASE,
   authDomain: "netflix-clone-7025f.firebaseapp.com",
   projectId: "netflix-clone-7025f",
   storageBucket: "netflix-clone-7025f.appspot.com",

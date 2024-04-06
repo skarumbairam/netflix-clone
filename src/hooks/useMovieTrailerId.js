@@ -4,6 +4,8 @@ import { API_OPTIONS } from "../utils/constants";
 import { addMovieTrailerId } from "../utils/moviesSlice";
 
 const useMovieTrailerId = (id) => {
+  const trailer = useSelector((store) => store.movies.movieTrailerId);
+  // console.log("trailer Test", trailer);
   const dispatch = useDispatch();
   const getMovieTrailers = async () => {
     const data = await fetch(
@@ -19,7 +21,7 @@ const useMovieTrailerId = (id) => {
     dispatch(addMovieTrailerId(trailerId));
   };
   useEffect(() => {
-    getMovieTrailers();
+    !trailer && getMovieTrailers();
   }, []);
 };
 

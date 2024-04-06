@@ -7,10 +7,11 @@ import HeroContainer from "./HeroContainer";
 import BodyContainer from "./BodyContainer";
 import GPTSearchContainer from "./GPTSearchContainer";
 import { useSelector } from "react-redux";
+import WatchMovie from "./WatchMovie";
 
 const Browse = () => {
-  const gptSearch = useSelector((store) => store.gptSearch);
-
+  const gptSearch = useSelector((store) => store.gptSearch.showGptSearch);
+  const watchMovie = useSelector((store) => store.movies.watchMovie);
   useNowPlayingMovies();
   usePopularMovies();
   useUpcomingMovies();
@@ -20,6 +21,8 @@ const Browse = () => {
       <Header />
       {gptSearch ? (
         <GPTSearchContainer />
+      ) : watchMovie ? (
+        <WatchMovie />
       ) : (
         <>
           <HeroContainer />

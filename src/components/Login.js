@@ -54,7 +54,6 @@ const Login = () => {
           // Signed up
           const user = userCredential.user;
           // Route to Browse Page
-          console.log(user);
 
           updateProfile(user, {
             displayName: nameRef.current.value,
@@ -116,6 +115,7 @@ const Login = () => {
             className="my-6 p-2 w-full rounded block border-black bg-gray-500 text-white"
             placeholder="Enter Password"
             ref={passwordRef}
+            autoComplete="off"
           />
 
           {errorMessage !== null && (
