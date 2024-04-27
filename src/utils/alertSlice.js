@@ -10,5 +10,5 @@ const alertSlice = createSlice({
   },
 });
 
-export default alertSlice.reducer;
 export const { setAlert } = alertSlice.actions;
+export default alertSlice.reducer;
