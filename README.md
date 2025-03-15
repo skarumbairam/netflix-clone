@@ -52,5 +52,16 @@
 
 ## High level out put
 
-[screencapture-localhost-3000-browse-2025-03-15-19_37_13.pdf](https://github.com/user-attachments/files/19262696/screencapture-localhost-3000-browse-2025-03-15-19_37_13.pdf)
+## Login Screen:
+<img width="1436" alt="Screenshot 2025-03-15 at 7 46 44 PM" src="https://github.com/user-attachments/assets/ccf4fc0e-c5e0-4a17-96da-7de40c6e63b8" />
+
+## Sign Up Screen:
+<img width="1439" alt="Screenshot 2025-03-15 at 7 46 51 PM" src="https://github.com/user-attachments/assets/6b12cae5-dc44-4cc0-87ff-9a02b88da684" />
+
+## Movie Suggestion List By Chat GPT:
+<img width="1440" alt="Screenshot 2025-03-15 at 7 48 08 PM" src="https://github.com/user-attachments/assets/0a7777b5-7751-4e5b-8613-491818954d21" />
+
+## Home Screen After Login 
+![screencapture-localhost-3000-browse-2025-03-15-19_37_13](https://github.com/user-attachments/assets/565cdeb0-2070-4060-aca4-dd5d86384655)
+
 
