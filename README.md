@@ -34,7 +34,7 @@
   - Updating Stores for all movies list and render dynamically
   - Created GPT Page
     - Search Bar
-    - Multi language feature in GPT search page
+    - Multi-language feature in GPT search page
 
 # Features
 
@@ -48,9 +48,9 @@
   - Movie Suggestion
     - Movies list \* N
 - GPT Search
-  - Recomendation movies by GPT API
+  - Recommendation movies by GPT API
 
-# Form Validation
+## High level out put
 
-- Form validation
-  - useRef
+[screencapture-localhost-3000-browse-2025-03-15-19_37_13.pdf](https://github.com/user-attachments/files/19262696/screencapture-localhost-3000-browse-2025-03-15-19_37_13.pdf)
+
